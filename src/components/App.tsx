@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 import SearchForm from "./SearchForm";
-import { Article } from "../types/article";
+import type { Article } from "../types/article";
 import ArticleList from "./ArticleList";
 
 interface ArticlesHttpResponse {
